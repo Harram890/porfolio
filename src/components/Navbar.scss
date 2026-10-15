@@ -1,0 +1,127 @@
+// .navitems {
+//     position: fixed;
+//   display: flex;
+//   flex-direction: row;
+
+// gap: 400px; ;
+// background-color: #1E293B;
+//   padding-block: 23px;
+//   padding-inline: 30px;
+//  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.35);
+  
+//   border: none;
+//   width: 100%;
+
+//   .heading {
+//     font-size: 22px;
+//     font-weight: 700;
+//     letter-spacing: 1.5px;
+//     color: #f8fafc;
+   
+//   }
+
+//   .buttons {
+//     display: flex;
+//     flex-direction: row;
+//     gap: 30px;
+   
+
+//     button {
+//       background: transparent;
+//       border: none;
+//       outline: none;
+   
+//       color: #94a3b8;
+//       font-size: 15px;
+//       font-weight: 500;
+//       letter-spacing: 1.5px;
+
+//       cursor: pointer;
+//       transition: all 0.3s ease;
+
+//       &:hover {
+//         color: #38bdf8;
+//         transform: translateY(-2px);
+//       }
+
+//       &:focus {
+//         outline: none;
+//       }
+//     }
+//   }
+// }
+
+
+
+.navitems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // margin: 20px 50px;
+  padding: 12px 30px;
+gap: 500px;
+  background: #111111;
+  border: 1px solid #262626;
+  // border-radius: 14px;
+position: fixed;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.35);
+
+  .heading {
+    h2 {
+      margin: 0;
+
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 2px;
+
+      color: #ffffff;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    button {
+      padding: 8px 0;
+
+      background: transparent;
+      border: none;
+      outline: none;
+
+      color: #a1a1aa;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1px;
+
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: #a855f7;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    // Contact button
+    button:last-child {
+      padding: 10px 18px;
+
+      background: #a855f7;
+      color: #ffffff;
+
+      border-radius: 8px;
+
+      &:hover {
+        background: #9333ea;
+        color: #ffffff;
+        transform: translateY(-2px);
+      }
+    }
+  }
+}
